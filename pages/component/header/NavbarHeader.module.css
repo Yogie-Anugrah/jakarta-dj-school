@@ -1,0 +1,10 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+}
+
+.link{
+  text-align: center;
+}
