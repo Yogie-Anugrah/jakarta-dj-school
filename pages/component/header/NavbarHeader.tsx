@@ -9,7 +9,7 @@ const NavbarHeader: NextPage = () => {
         {
           linkList.map(item => {
             return(
-              <Grid lg={(item.textLink === 'Logo') ? 3 : 1}>
+              <Grid key={"something"} lg={(item.textLink === 'Logo') ? 3 : 1}>
                 <Text className={style.link} key={item.key}>{item.textLink}</Text>
               </Grid>
             )
