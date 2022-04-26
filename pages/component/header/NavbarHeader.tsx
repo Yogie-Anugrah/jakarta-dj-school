@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import { Col, Container, Grid, Row, Text } from '@nextui-org/react'
-import { linkList } from "../../constant/NavbarLinks";
+import { linkList } from "../../../constant/NavbarLinks";
 import style from "./NavbarHeader.module.css"
 
 const NavbarHeader: NextPage = () => {
